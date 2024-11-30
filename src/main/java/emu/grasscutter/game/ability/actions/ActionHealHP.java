@@ -29,7 +29,7 @@ public final class ActionHealHP extends AbilityActionHandler {
                                 owner);
             }
         }
-
+// TODO notify the client where the healing comes from, using DetailInfo.proto in packetentityfightpropchangereasonnotify
         if (owner == null) return false;
 
         // Get all properties.
