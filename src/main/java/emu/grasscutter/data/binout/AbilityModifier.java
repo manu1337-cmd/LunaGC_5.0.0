@@ -91,6 +91,7 @@ public class AbilityModifier implements Serializable {
             ChangeEnviroWeather,
             ChangeFollowDampTime,
             ChangeGadgetUIInteractHint,
+            ChangePhlogiston,
             ChangePlayMode,
             ChangeTag,
             ChangeUGCRayTag,
@@ -151,6 +152,7 @@ public class AbilityModifier implements Serializable {
             ForceEnableShakeOffButton,
             GenerateElemBall,
             GetFightProperty,
+            GetHPPaidDebts,
             GetInteractIdToGlobalValue,
             GetPos,
             @SerializedName(value = "HealHP", alternate = "KFPABDEBDHB")
@@ -173,6 +175,7 @@ public class AbilityModifier implements Serializable {
             PushInterActionByConfigPath,
             PushPos,
             Randomed,
+            ReduceHPDebts,
             ReTriggerAISkillInitialCD,
             RefreshUICombatBarLayout,
             RegisterAIActionPoint,
